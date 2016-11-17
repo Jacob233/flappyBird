@@ -151,7 +151,7 @@ public class World extends JPanel {
 
 		Font font = new Font(Font.MONOSPACED, Font.BOLD, 32);
 		g.setFont(font);
-		g.setColor(Color.darkGray);
+		g.setColor(new Color(255,236,139));
 		g.drawString("得分:" + this.score, 30, 50);
 
 		// 如果游戏结束绘制结束界面
